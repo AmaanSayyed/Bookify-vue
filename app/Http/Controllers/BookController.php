@@ -12,7 +12,7 @@ class BookController extends Controller
      */
     public function index()
     {
-        return response()->json(Book::get());
+        return response()->json(Book::latest()->get());
     }
 
     /**

@@ -13,6 +13,11 @@
               Home
               </router-link>
               <router-link
+              to="/books/manage" 
+              class="text-gray-900 hover:text-purple-700 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
+              Admin
+              </router-link>
+              <router-link
               to="/books/create" 
               class="text-gray-900 hover:text-purple-700 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">
               Create Books

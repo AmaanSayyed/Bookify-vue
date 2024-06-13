@@ -13,27 +13,10 @@
       ref="createBooksComponent"
     />
   </router-view>
-    
-
-
- 
 </template>
- <!-- <books-viewer v-for="(book, index) in books" 
-    :key="index" :index="index" 
-    :book="book"
-    @delete-book="removeBook"
-    @edit-book="editBook"></books-viewer>
 
-  <create-books 
-  @form-submitted="addBook"
-  @update-book="updateBook"
-  @form-error="handleFormError" 
-  :book-to-edit="bookToEdit"
-  ref="createBooksComponent" 
-  ></create-books> -->
 <script>
 import Navbar from "./components/Navbar.vue";
-import CreateBooks from "./components/CreateBooks.vue";
 
 export default {
   components: {
